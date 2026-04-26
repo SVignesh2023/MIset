@@ -1,7 +1,7 @@
 __pycache__/
 *.pyc
 *.pyo
-build/
+docs_build/
 dist/
 *.egg-info/
 .DS_Store
