@@ -1,0 +1,24 @@
+version: 1.0.0
+
+# Build configuration
+build:
+  tools:
+    python: "3.10"
+
+# Python dependencies
+python:
+  version: 3.10
+  install:
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
+
+# Sphinx configuration
+sphinx:
+  configuration: src/docs/source/conf.py
+
+# Output directory
+formats:
+  - pdf
+  - epub
