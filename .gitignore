@@ -1,8 +1,0 @@
-__pycache__/
-*.pyc
-*.pyo
-docs_build/
-dist/
-*.egg-info/
-.DS_Store
-Thumbs.db
