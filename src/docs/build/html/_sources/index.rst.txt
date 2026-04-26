@@ -1,0 +1,19 @@
+MIset documentation
+===================
+
+This is a python package that provides a python implementation of the mutual infromation based feature selection techniques outlined in the following research papers:
+
+'MIset' stands for '(M)utual (I)nformation (SET) of feature selection techniques'.
+
+1. **'Joint Mutual Information Maximization'** method as described here: `https://doi.org/10.1016/j.eswa.2015.07.007 <https://doi.org/10.1016/j.eswa.2015.07.007>`_.
+2. **'Normalized Joint Mutual Information Maximization'** method as described here: `https://doi.org/10.1016/j.eswa.2015.07.007 <https://doi.org/10.1016/j.eswa.2015.07.007>`_.
+3. **'Joint Mutual Information with Class Relevance'** method as described here: `https://doi.org/10.1016/j.jcmds.2023.100075 <https://doi.org/10.1016/j.jcmds.2023.100075>`_.
+
+
+.. toctree::
+   :hidden:
+
+   Installation
+   MIset
+   Example
+   Contact
