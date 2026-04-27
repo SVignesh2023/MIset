@@ -1,0 +1,4 @@
+pandas
+numpy
+joblib
+sphinx_rtd_theme
