@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "MIset"
+version = "1.0.0"
+dependencies = [
+  "pandas",
+  "numpy",
+  "joblib"
+]
+authors = [
+  { name = "Vignesh Shanmugasundaram", email= "vigneshh2000@gmail.com" }
+]
+maintainers=[
+  {name = "Vignesh Shanmugasundaram", email = "vigneshh2000@gmail.com" }
+]
+description = "Mutual Information based feature selection techniques"
+readme = "README.rst"
+requires-python = ">=3.10"
+keywords = ["Machine Learning","Information Theory","Mutual Information","Feature Selection"]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+docs = [
+    "sphinx_rtd_theme",
+    "sphinx"
+]
+
+[project.urls]
+Homepage = "https://github.com/SVignesh2023/MIset"
+Issues = "https://github.com/SVignesh2023/MIset/issues"
