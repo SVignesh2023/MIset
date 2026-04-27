@@ -1,4 +1,0 @@
-pandas
-numpy
-joblib
-sphinx_rtd_theme==3.1.0
